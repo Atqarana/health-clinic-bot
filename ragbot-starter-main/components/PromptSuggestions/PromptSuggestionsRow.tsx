@@ -3,10 +3,8 @@ import PromptSuggestionButton from "./PromptSuggestionButton";
 const PromptSuggestionRow = ({ onPromptClick }) => {
   const prompts = [
     '🌟 Get Started',
-    '👨‍⚕️ Suggest a Doctor for Me',
-    '📅 Book an Appointment',
-    '❓ FAQs and General Help',
     '📞 Contact Us',
+    '❓ FAQs and General Help',
   ];
 
   return (

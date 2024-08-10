@@ -1,44 +1,100 @@
-# RAGBot Starter
+HealthWise Support Bot
+Overview
+The HealthWise Support Bot is a modern chatbot designed to assist users with queries related to HealthWise Clinic. This support bot leverages the power of OpenAI and Retrieval-Augmented Generation (RAG) to provide accurate and relevant responses. It is built using Next.js and TypeScript, with Astra DB serving as the vector database for enhanced search capabilities.
 
-This project is a starter for creating a chatbot using Astra DB and OpenAI. It's designed to be easy to deploy and use, with a focus on performance and usability.
+Features
+Interactive Chatbot: Provides real-time assistance and answers to user queries.
+OpenAI Integration: Utilizes OpenAI's language model to generate responses.
+RAG Integration: Enhances the chatbot's capabilities with Retrieval-Augmented Generation for better contextual responses.
+Astra DB: Uses Astra DB as a vector database to improve the accuracy and relevance of search results.
+Modern Tech Stack: Built with Next.js and TypeScript for a robust and scalable web application.
+Technology Stack
+Frontend:
+Next.js: Framework for server-rendered React applications.
+TypeScript: Superset of JavaScript for type safety and better development experience.
+Lottie Files: For adding animated graphics.
+Backend:
+OpenAI: For natural language processing and generation.
+RAG: For retrieval-augmented generation to improve response accuracy.
+Astra DB: Vector database for storing and querying data.
+Getting Started
+To get started with the HealthWise Support Bot, follow these steps:
 
-## Features
+Prerequisites
+Node.js (v14 or later)
+npm or yarn
+Git
+Installation
+Clone the repository:
 
-- **Astra DB Integration**: Store and retrieve data from your Astra DB database with ease.
-- **OpenAI Integration**: Leverage the power of OpenAI to generate intelligent responses.
-- **Easy Deployment**: Deploy your chatbot to Vercel with just a few clicks.
-- **Customizable**: Modify and extend the chatbot to suit your needs.
+bash
+Copy code
+git clone https://github.com/your-username/healthwise-support-bot.git
+Navigate to the project directory:
 
-## Getting Started
+bash
+Copy code
+cd healthwise-support-bot
+Install dependencies:
 
-### Prerequisites
+Using npm:
 
-- An Astra DB account. You can [create one here](https://astra.datastax.com/register).
-    - An Astra Vector Database
-- An OpenAI account. You can [create one here](https://platform.openai.com/).
+bash
+Copy code
+npm install
+Or using yarn:
 
-## Deployment
+bash
+Copy code
+yarn install
+Set up environment variables:
 
-Easily deploy your chatbot to Vercel by clicking the button below:
+Create a .env.local file in the root of the project and add the following environment variables:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/datastax/ragbot-starter&integration-ids=oac_HrgeXUSyqANAtm3MAOaTJ43a&env=OPENAI_API_KEY)
+env
+Copy code
+NEXT_PUBLIC_OPENAI_API_KEY=your-openai-api-key
+ASTRA_DB_ID=your-astra-db-id
+ASTRA_DB_SECRET=your-astra-db-secret
+Replace the placeholders with your actual OpenAI API key and Astra DB credentials.
 
-Configure the Astra DB integration and add your `OPENAI_API_KEY` environment variable.
+Run the development server:
 
-Note: Before you deploying to prod, you will want to remove seed script (`npm run seed`) from the build step.
+Using npm:
 
-### Local Development
+bash
+Copy code
+npm run dev
+Or using yarn:
 
-1. Clone this repository to your local machine.
-2. Install the dependencies by running `npm install` in your terminal.
-3. Set up the following environment variables in your IDE or `.env` file:
-    - `OPENAI_API_KEY`: Your API key for OpenAI
-    - `ASTRA_DB_API_ENDPOINT`: Your Astra DB vector database endpoint
-    - `ASTRA_DB_APPLICATION_TOKEN`: The generated app token for your Astra database
-        - To create a new token go to your database's `Connect` tab and click `Generate Token`. (your Application Token begins with `AstraCS:...`)
-    - `ASTRA_DB_NAMESPACE`: (Optional) The existing Astra Namespace/Keyspace **_in a vector-enabled DB_**
-4. Populate your database with sample data by running `npm run seed` in your terminal.
+bash
+Copy code
+yarn dev
+Open your browser and go to http://localhost:3000 to view the application.
 
-### Running the Project
+Usage
+Chat with the Bot: Type your queries in the chat input and hit "Send" to receive responses from the HealthWise support bot.
+Configuration: Access configuration options to adjust the bot's behavior and settings.
+Contributing
+We welcome contributions to the HealthWise Support Bot project. To contribute:
 
-To start the development server, run `npm run dev` in your terminal. Open [http://localhost:3000](http://localhost:3000) to view the chatbot in your browser.
+Fork the repository.
+
+Create a new branch:
+
+bash
+Copy code
+git checkout -b feature/your-feature
+Make your changes and commit them:
+
+bash
+Copy code
+git add .
+git commit -m "Add your message here"
+Push to your fork:
+
+bash
+Copy code
+git push origin feature/your-feature
+Create a pull request on GitHub.
+
