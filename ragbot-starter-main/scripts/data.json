@@ -1,0 +1,677 @@
+[
+    {
+        "doctor_name": "Dr. Alice Johnson",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "specialization": "Cardiologist",
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "consultation_fee": 120
+    },
+    {
+        "doctor_name": "Dr. Bob Smith",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Monday", "Wednesday", "Friday"],
+        "specialization": "Orthopedic Surgeon",
+        "years_of_experience": 20,
+        "rating": 4.8,
+        "consultation_fee": 150
+    },
+    {
+        "doctor_name": "Dr. Carol Martinez",
+        "availability_hours": "8:00 AM - 4:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Dermatologist",
+        "years_of_experience": 12,
+        "rating": 4.5,
+        "consultation_fee": 100
+    },
+    {
+        "doctor_name": "Dr. David Lee",
+        "availability_hours": "9:00 AM - 3:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Pediatrician",
+        "years_of_experience": 8,
+        "rating": 4.6,
+        "consultation_fee": 80
+    },
+    {
+        "doctor_name": "Dr. Emma Wilson",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Gynecologist",
+        "years_of_experience": 18,
+        "rating": 4.9,
+        "consultation_fee": 130
+    },
+    {
+        "doctor_name": "Dr. Frank White",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Monday", "Wednesday", "Friday"],
+        "specialization": "General Practitioner",
+        "years_of_experience": 22,
+        "rating": 4.4,
+        "consultation_fee": 90
+    },
+    {
+        "doctor_name": "Dr. Grace Davis",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Endocrinologist",
+        "years_of_experience": 10,
+        "rating": 4.7,
+        "consultation_fee": 110
+    },
+    {
+        "doctor_name": "Dr. Henry Brown",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Monday", "Wednesday", "Friday"],
+        "specialization": "Nephrologist",
+        "years_of_experience": 14,
+        "rating": 4.6,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Isabella Garcia",
+        "availability_hours": "12:00 PM - 8:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Pulmonologist",
+        "years_of_experience": 16,
+        "rating": 4.8,
+        "consultation_fee": 115
+    },
+    {
+        "doctor_name": "Dr. Jack Adams",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Ophthalmologist",
+        "years_of_experience": 19,
+        "rating": 4.7,
+        "consultation_fee": 125
+    },
+    {
+        "doctor_name": "Dr. Karen Clark",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Hematologist",
+        "years_of_experience": 13,
+        "rating": 4.5,
+        "consultation_fee": 135
+    },
+    {
+        "doctor_name": "Dr. Liam Lewis",
+        "availability_hours": "8:00 AM - 3:00 PM",
+        "availability_days": ["Monday", "Wednesday", "Friday"],
+        "specialization": "Rheumatologist",
+        "years_of_experience": 21,
+        "rating": 4.6,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Mia Walker",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Oncologist",
+        "years_of_experience": 17,
+        "rating": 4.8,
+        "consultation_fee": 155
+    },
+    {
+        "doctor_name": "Dr. Noah Young",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Wednesday", "Friday"],
+        "specialization": "Neurologist",
+        "years_of_experience": 25,
+        "rating": 4.7,
+        "consultation_fee": 160
+    },
+    {
+        "doctor_name": "Dr. Olivia Scott",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Urologist",
+        "years_of_experience": 11,
+        "rating": 4.5,
+        "consultation_fee": 145
+    },
+    {
+        "doctor_name": "Dr. Peter Hill",
+        "availability_hours": "9:00 AM - 3:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Gastroenterologist",
+        "years_of_experience": 14,
+        "rating": 4.6,
+        "consultation_fee": 130
+    },
+    {
+        "doctor_name": "Dr. Quinn King",
+        "availability_hours": "8:00 AM - 4:00 PM",
+        "availability_days": ["Monday", "Wednesday", "Friday"],
+        "specialization": "Rheumatologist",
+        "years_of_experience": 16,
+        "rating": 4.4,
+        "consultation_fee": 120
+    },
+    {
+        "doctor_name": "Dr. Rachel Wright",
+        "availability_hours": "12:00 PM - 8:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Cardiologist",
+        "years_of_experience": 23,
+        "rating": 4.9,
+        "consultation_fee": 150
+    },
+    {
+        "doctor_name": "Dr. Samuel Green",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Dermatologist",
+        "years_of_experience": 12,
+        "rating": 4.7,
+        "consultation_fee": 100
+    },
+    {
+        "doctor_name": "Dr. Teresa Nelson",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Gynecologist",
+        "years_of_experience": 19,
+        "rating": 4.8,
+        "consultation_fee": 130
+    },
+    {
+        "doctor_name": "Dr. Ursula Carter",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "General Practitioner",
+        "years_of_experience": 9,
+        "rating": 4.5,
+        "consultation_fee": 85
+    },
+    {
+        "doctor_name": "Dr. Victor Martinez",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Pediatrician",
+        "years_of_experience": 14,
+        "rating": 4.6,
+        "consultation_fee": 90
+    },
+    {
+        "doctor_name": "Dr. Wendy Carter",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Nephrologist",
+        "years_of_experience": 11,
+        "rating": 4.7,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Xavier Phillips",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Endocrinologist",
+        "years_of_experience": 15,
+        "rating": 4.8,
+        "consultation_fee": 110
+    },
+    {
+        "doctor_name": "Dr. Yvonne Roberts",
+        "availability_hours": "8:00 AM - 3:00 PM",
+        "availability_days": ["Wednesday", "Friday"],
+        "specialization": "Ophthalmologist",
+        "years_of_experience": 13,
+        "rating": 4.6,
+        "consultation_fee": 125
+    },
+    {
+        "doctor_name": "Dr. Zachary Walker",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "Hematologist",
+        "years_of_experience": 20,
+        "rating": 4.7,
+        "consultation_fee": 135
+    },
+    {
+        "doctor_name": "Dr. Amelia Lee",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Pulmonologist",
+        "years_of_experience": 17,
+        "rating": 4.8,
+        "consultation_fee": 115
+    },
+    {
+        "doctor_name": "Dr. Benjamin Lewis",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Oncologist",
+        "years_of_experience": 22,
+        "rating": 4.9,
+        "consultation_fee": 155
+    },
+    {
+        "doctor_name": "Dr. Chloe Miller",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "General Practitioner",
+        "years_of_experience": 8,
+        "rating": 4.4,
+        "consultation_fee": 80
+    },
+    {
+        "doctor_name": "Dr. Daniel Harris",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "Nephrologist",
+        "years_of_experience": 19,
+        "rating": 4.6,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Elizabeth Robinson",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Endocrinologist",
+        "years_of_experience": 14,
+        "rating": 4.7,
+        "consultation_fee": 110
+    },
+    {
+        "doctor_name": "Dr. Francis Thomas",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "Ophthalmologist",
+        "years_of_experience": 16,
+        "rating": 4.8,
+        "consultation_fee": 125
+    },
+    {
+        "doctor_name": "Dr. Grace Nelson",
+        "availability_hours": "9:00 AM - 3:00 PM",
+        "availability_days": ["Friday"],
+        "specialization": "Dermatologist",
+        "years_of_experience": 11,
+        "rating": 4.5,
+        "consultation_fee": 100
+    },
+    {
+        "doctor_name": "Dr. Henry Evans",
+        "availability_hours": "12:00 PM - 8:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Pediatrician",
+        "years_of_experience": 18,
+        "rating": 4.6,
+        "consultation_fee": 85
+    },
+    {
+        "doctor_name": "Dr. Ivy Adams",
+        "availability_hours": "8:00 AM - 4:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Rheumatologist",
+        "years_of_experience": 20,
+        "rating": 4.7,
+        "consultation_fee": 120
+    },
+    {
+        "doctor_name": "Dr. Jack Carter",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Tuesday", "Wednesday"],
+        "specialization": "Hematologist",
+        "years_of_experience": 12,
+        "rating": 4.6,
+        "consultation_fee": 135
+    },
+    {
+        "doctor_name": "Dr. Kelly Wright",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Cardiologist",
+        "years_of_experience": 21,
+        "rating": 4.8,
+        "consultation_fee": 150
+    },
+    {
+        "doctor_name": "Dr. Liam Young",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Pulmonologist",
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "consultation_fee": 115
+    },
+    {
+        "doctor_name": "Dr. Megan King",
+        "availability_hours": "8:00 AM - 3:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Oncologist",
+        "years_of_experience": 19,
+        "rating": 4.9,
+        "consultation_fee": 155
+    },
+    {
+        "doctor_name": "Dr. Nathan Scott",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Dermatologist",
+        "years_of_experience": 13,
+        "rating": 4.5,
+        "consultation_fee": 100
+    },
+    {
+        "doctor_name": "Dr. Olivia Brown",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Wednesday", "Friday"],
+        "specialization": "Gynecologist",
+        "years_of_experience": 17,
+        "rating": 4.8,
+        "consultation_fee": 130
+    },
+    {
+        "doctor_name": "Dr. Patrick Evans",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "General Practitioner",
+        "years_of_experience": 10,
+        "rating": 4.4,
+        "consultation_fee": 85
+    },
+    {
+        "doctor_name": "Dr. Quinn Davis",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Nephrologist",
+        "years_of_experience": 22,
+        "rating": 4.6,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Rachel Martinez",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Endocrinologist",
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "consultation_fee": 110
+    },
+    {
+        "doctor_name": "Dr. Samuel Johnson",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Tuesday", "Wednesday"],
+        "specialization": "Ophthalmologist",
+        "years_of_experience": 13,
+        "rating": 4.8,
+        "consultation_fee": 125
+    },
+    {
+        "doctor_name": "Dr. Teresa Lewis",
+        "availability_hours": "8:00 AM - 4:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Hematologist",
+        "years_of_experience": 18,
+        "rating": 4.6,
+        "consultation_fee": 135
+    },
+    {
+        "doctor_name": "Dr. Ursula White",
+        "availability_hours": "12:00 PM - 8:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Pulmonologist",
+        "years_of_experience": 21,
+        "rating": 4.7,
+        "consultation_fee": 115
+    },
+    {
+        "doctor_name": "Dr. Victor Green",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "Oncologist",
+        "years_of_experience": 19,
+        "rating": 4.9,
+        "consultation_fee": 155
+    },
+    {
+        "doctor_name": "Dr. Wendy Johnson",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Cardiologist",
+        "years_of_experience": 22,
+        "rating": 4.7,
+        "consultation_fee": 150
+    },
+    {
+        "doctor_name": "Dr. Xavier Martinez",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Dermatologist",
+        "years_of_experience": 15,
+        "rating": 4.5,
+        "consultation_fee": 100
+    },
+    {
+        "doctor_name": "Dr. Yvonne Harris",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Gynecologist",
+        "years_of_experience": 19,
+        "rating": 4.8,
+        "consultation_fee": 130
+    },
+    {
+        "doctor_name": "Dr. Zachary Davis",
+        "availability_hours": "9:00 AM - 3:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "General Practitioner",
+        "years_of_experience": 12,
+        "rating": 4.4,
+        "consultation_fee": 85
+    },
+    {
+        "doctor_name": "Dr. Amelia Scott",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Nephrologist",
+        "years_of_experience": 14,
+        "rating": 4.6,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Benjamin Walker",
+        "availability_hours": "8:00 AM - 4:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Endocrinologist",
+        "years_of_experience": 11,
+        "rating": 4.7,
+        "consultation_fee": 110
+    },
+    {
+        "doctor_name": "Dr. Chloe Wilson",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Ophthalmologist",
+        "years_of_experience": 16,
+        "rating": 4.8,
+        "consultation_fee": 125
+    },
+    {
+        "doctor_name": "Dr. Daniel Green",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Hematologist",
+        "years_of_experience": 12,
+        "rating": 4.6,
+        "consultation_fee": 135
+    },
+    {
+        "doctor_name": "Dr. Elizabeth Lewis",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Pulmonologist",
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "consultation_fee": 115
+    },
+    {
+        "doctor_name": "Dr. Francis Adams",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Oncologist",
+        "years_of_experience": 18,
+        "rating": 4.9,
+        "consultation_fee": 155
+    },
+    {
+        "doctor_name": "Dr. Grace Harris",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "Dermatologist",
+        "years_of_experience": 13,
+        "rating": 4.5,
+        "consultation_fee": 100
+    },
+    {
+        "doctor_name": "Dr. Henry King",
+        "availability_hours": "8:00 AM - 3:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Gynecologist",
+        "years_of_experience": 20,
+        "rating": 4.8,
+        "consultation_fee": 130
+    },
+    {
+        "doctor_name": "Dr. Ivy Scott",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "General Practitioner",
+        "years_of_experience": 10,
+        "rating": 4.4,
+        "consultation_fee": 85
+    },
+    {
+        "doctor_name": "Dr. Jack Lewis",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Nephrologist",
+        "years_of_experience": 14,
+        "rating": 4.6,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Kelly Walker",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Wednesday", "Friday"],
+        "specialization": "Endocrinologist",
+        "years_of_experience": 12,
+        "rating": 4.7,
+        "consultation_fee": 110
+    },
+    {
+        "doctor_name": "Dr. Liam Johnson",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "Ophthalmologist",
+        "years_of_experience": 15,
+        "rating": 4.8,
+        "consultation_fee": 125
+    },
+    {
+        "doctor_name": "Dr. Megan Harris",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Hematologist",
+        "years_of_experience": 18,
+        "rating": 4.6,
+        "consultation_fee": 135
+    },
+    {
+        "doctor_name": "Dr. Nathan Adams",
+        "availability_hours": "12:00 PM - 8:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Pulmonologist",
+        "years_of_experience": 21,
+        "rating": 4.7,
+        "consultation_fee": 115
+    },
+    {
+        "doctor_name": "Dr. Olivia Young",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Oncologist",
+        "years_of_experience": 22,
+        "rating": 4.9,
+        "consultation_fee": 155
+    },
+    {
+        "doctor_name": "Dr. Patrick Wright",
+        "availability_hours": "10:00 AM - 6:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "Dermatologist",
+        "years_of_experience": 14,
+        "rating": 4.5,
+        "consultation_fee": 100
+    },
+    {
+        "doctor_name": "Dr. Quinn Johnson",
+        "availability_hours": "8:00 AM - 3:00 PM",
+        "availability_days": ["Tuesday", "Friday"],
+        "specialization": "Gynecologist",
+        "years_of_experience": 16,
+        "rating": 4.8,
+        "consultation_fee": 130
+    },
+    {
+        "doctor_name": "Dr. Rachel Clark",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Monday", "Thursday"],
+        "specialization": "General Practitioner",
+        "years_of_experience": 12,
+        "rating": 4.4,
+        "consultation_fee": 85
+    },
+    {
+        "doctor_name": "Dr. Samuel Davis",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Nephrologist",
+        "years_of_experience": 19,
+        "rating": 4.6,
+        "consultation_fee": 140
+    },
+    {
+        "doctor_name": "Dr. Teresa Adams",
+        "availability_hours": "10:00 AM - 4:00 PM",
+        "availability_days": ["Monday", "Wednesday"],
+        "specialization": "Endocrinologist",
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "consultation_fee": 110
+    },
+    {
+        "doctor_name": "Dr. Ursula Johnson",
+        "availability_hours": "9:00 AM - 5:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Ophthalmologist",
+        "years_of_experience": 13,
+        "rating": 4.8,
+        "consultation_fee": 125
+    },
+    {
+        "doctor_name": "Dr. Victor Lee",
+        "availability_hours": "8:00 AM - 2:00 PM",
+        "availability_days": ["Monday", "Friday"],
+        "specialization": "Hematologist",
+        "years_of_experience": 19,
+        "rating": 4.6,
+        "consultation_fee": 135
+    },
+    {
+        "doctor_name": "Dr. Wendy Green",
+        "availability_hours": "11:00 AM - 7:00 PM",
+        "availability_days": ["Tuesday", "Thursday"],
+        "specialization": "Pulmonologist",
+        "years_of_experience": 18,
+        "rating": 4.7,
+        "consultation_fee": 115
+    }
+]
