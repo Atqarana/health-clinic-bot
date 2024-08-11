@@ -1,14 +1,29 @@
 import Link from "next/link";
-import {forwardRef, JSXElementConstructor, useMemo, RefObject} from "react";
+import { forwardRef, JSXElementConstructor, useMemo, RefObject } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-const Bubble:JSXElementConstructor<any> = forwardRef(function Bubble({ content }, ref) {
-  const { role } = content;
-  const isUser = role === "user"
+const Bubble: JSXElementConstructor<any> = forwardRef(function Bubble({ content }, ref) {
+  const { role, id } = content;
+  const isUser = role === "user";
+
+  const handleFeedback = async (rating: number) => {
+    try {
+      await fetch('https://api.mailgun.net/v3/sandbox4633a4a1b1544c38855f6b9c32ce2c4b.mailgun.org/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ messageId: id, rating }),
+      });
+      alert('Thank you for your feedback!');
+    } catch (error) {
+      console.error('Failed to send feedback:', error);
+    }
+  };
 
   return (
-    <div ref={ref  as RefObject<HTMLDivElement>} className={`block mt-4 md:mt-6 pb-[7px] clear-both ${isUser ? 'float-right' : 'float-left'}`}>
+    <div ref={ref as RefObject<HTMLDivElement>} className={`block mt-4 md:mt-6 pb-[7px] clear-both ${isUser ? 'float-right' : 'float-left'}`}>
       <div className="flex justify-end">
         <div className={`talk-bubble${isUser ? ' user' : ''} p-2 md:p-4`}>
           {content.processing ? (
@@ -22,9 +37,9 @@ const Bubble:JSXElementConstructor<any> = forwardRef(function Bubble({ content }
                 code({ node, children, ...props }) {
                   return (
                     <code {...props}>
-                       {children}
-                   </code>
-                   )
+                      {children}
+                    </code>
+                  );
                 }
               }}
             >
@@ -36,7 +51,7 @@ const Bubble:JSXElementConstructor<any> = forwardRef(function Bubble({ content }
           </svg>
         </div>
       </div>
-      {content.url ? (
+      {content.url && (
         <div className="flex justify-end mt-3">
           <div className="flex items-center gap-2">
             <span className="text-sm">Source:</span>
@@ -50,11 +65,13 @@ const Bubble:JSXElementConstructor<any> = forwardRef(function Bubble({ content }
             </Link>
           </div>
         </div>
-      ) :
-        null
-      }
+      )}
+      <div className="feedback-buttons flex justify-end mt-2">
+        <button onClick={() => handleFeedback(1)} className="text-green-500 hover:text-green-700">👍</button>
+        <button onClick={() => handleFeedback(0)} className="text-red-500 hover:text-red-700">👎</button>
+      </div>
     </div>
-  )
-})
+  );
+});
 
 export default Bubble;

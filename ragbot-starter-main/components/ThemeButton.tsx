@@ -15,10 +15,10 @@ const ToggleButton = () => {
     const initialTheme = getLocalValue();
     setTheme(initialTheme);
 
-    if (initialTheme === 'dark') {
-      document.documentElement.classList.add('dark');
+    if (initialTheme === 'light') {
+      document.documentElement.classList.add('light');
     } else {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove('light');
     }
   }, []);
 
@@ -34,7 +34,7 @@ const ToggleButton = () => {
   }, [theme]);
 
   const handleToggle = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
+    setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
   if (theme === null) {
