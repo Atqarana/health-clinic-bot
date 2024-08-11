@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build && npm run seed",
     "start": "next start",
+    "seed": "ts-node ./scripts/populateDb.ts",
     "lint": "next lint"
   },
   "dependencies": {
@@ -18,7 +19,6 @@
     "framer-motion": "^11.3.24",
     "geist": "^1.1.0",
     "langchain": "^0.0.179",
-    "lucide-react": "^0.427.0",
     "mailgun.js": "^10.2.3",
     "next": "14.0.1",
     "openai": "^4.55.4",
