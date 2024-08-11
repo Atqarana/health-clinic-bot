@@ -10,6 +10,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import animationData from './doctor.json';
 import { Home, User, FileText, Phone, Settings } from 'lucide-react';
 import logooo from './logooo.png'; // Import the image
+import { Analytics } from "@vercel/analytics/react"
 export default function HomePage() {
   const { append, messages, input, handleInputChange, handleSubmit } = useChat();
   const { useRag, llm, similarityMetric, setConfiguration } = useConfiguration();
@@ -75,6 +76,7 @@ export default function HomePage() {
               src={animationData}
               style={{ height: '300px', width: '400px' }}
             />
+            <Analytics/>
           </div>
           <div className="text-center mb-8 px-4 md:px-8 relative z-10">
             <h1 className="text-xl md:text-2xl font-bold text-gray-800 mb-2">Welcome to Health Wise</h1>
@@ -109,6 +111,7 @@ export default function HomePage() {
           {(!messages || messages.length === 0) && (
             <PromptSuggestionRow onPromptClick={handlePrompt} />
           )}
+           <Analytics/>
           <form className='flex items-center gap-2 mt-4' onSubmit={handleSend}>
             <input
               onChange={handleInputChange}
@@ -116,6 +119,7 @@ export default function HomePage() {
               className='flex-1 text-sm md:text-base outline-none bg-gradient-to-r from-[#ffffff] via-[#f5f5f5] to-[#e0e0e0] border border-gray-300 rounded-lg p-2 shadow-sm'
               placeholder='Send a message...'
             />
+            <Analytics/>
             <button type="submit" className='bg-gradient-to-r from-[#4a90e2] to-[#50e3c2] text-white rounded-lg p-2 shadow-md hover:from-[#357abd] hover:to-[#4ec1a1] flex items-center'>
               <svg width="20" height="20" viewBox="0 0 20 20">
                 <path d="M2.925 5.025L9.18333 7.70833L2.91667 6.875L2.925 5.025ZM9.175 12.2917L2.91667 14.975V13.125L9.175 12.2917ZM1.25833 2.5L1.25 8.33333L13.75 10L1.25 11.6667L1.25833 17.5L18.75 10L1.25833 2.5Z" fill="#fff"/>
