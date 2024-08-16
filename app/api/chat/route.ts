@@ -11,6 +11,7 @@ const astraDb = new AstraDB(process.env.ASTRA_DB_APPLICATION_TOKEN, process.env.
 export async function POST(req: Request) {
   try {
     const {messages, useRag, llm, similarityMetric} = await req.json();
+
     const latestMessage = messages[messages?.length - 1]?.content;
 
     let docContext = '';
