@@ -16,8 +16,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const { messageId, rating }: FeedbackRequest = req.body;
 
     const emailData = {
-      // Replace with your Mailgun domain email
-      from: 'mailgun@sandbox4633a4a1b1544c38855f6b9c32ce2c4b.mailgun.org', 
+      from: 'mailgun@sandbox4633a4a1b1544c38855f6b9c32ce2c4b.mailgun.org', // Replace with your Mailgun domain email
       to: 'atqarana@gmail.com', // Replace with your email address
       subject: 'New Feedback Received',
       text: `
