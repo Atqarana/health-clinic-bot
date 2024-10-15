@@ -10,7 +10,8 @@ The **HealthWise Support Bot** is a modern chatbot designed to assist users with
 - **Astra DB**: Employs Astra DB as a vector database to enhance the accuracy and relevance of search results. 🗃️
 - **Modern Tech Stack**: Developed with Next.js and TypeScript for a robust and scalable web application. 💻
 
-[Watch the HealthWise Support Bot DEMO Video](https://www.youtube.com/watch?v=Hd4XIB6ASzs&t=21s)
+[![Watch the HealthWise Support Bot DEMO Video](https://img.youtube.com/vi/Hd4XIB6ASzs/hqdefault.jpg)](https://www.youtube.com/watch?v=Hd4XIB6ASzs&t=21s)
+
 
 ## Technology Stack
 
